@@ -1,8 +1,8 @@
 #include <PS4Controller.h>
 
 void setup() {
-  Serial.begin(9600);
-  PS4.begin("b8:d6:1a:bc:e6:a2");
+  Serial.begin(115200);
+  PS4.begin("1a:2b:3c:01:01:01");
   Serial.println("Ready.");
 }
 
